@@ -58,6 +58,33 @@ for i in range(1,rows+1):
         a,b=b,next_term
         next_num=a+b
         print()
+## check whether a number is prime or not 
+num=int(input("enter the number"))
+if num > 1:
+    for i in range (2,int(num/2)+1):
+         if (num % i)==0:
+            print("it is a not a prime number")
+            break
+    else:
+            print("it is a prime number")
+            
+else:
+    print("it is not a prime number")
+            
+## Make a simple calculator 
+def add(x,y):
+     return x+y
+def subtract(x,y):
+     return x-y
+def multiply(x,y):
+     return x*y
+def divide(x,y):
+     if y!=0:
+          return x/y
+    
+     
+
+
 
     
 
