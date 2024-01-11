@@ -81,6 +81,27 @@ def multiply(x,y):
 def divide(x,y):
      if y!=0:
           return x/y
+     else:
+          return"cannot divide by zero"
+while True:
+     num1=float(input("enter the number"))
+     operand=input("enter the operator(+,-,*,/):")
+     num2=float(input("enter the number"))
+     if operand =="+":
+          result= add(num1,num2)
+     elif operand=="-":
+          result=subtract(num1,num2)
+     elif operand=="*":
+          result=multiply(num1,num2)
+     elif operand=="/":
+          result=divide(num1,num2)
+     else:
+          print("invalid input")
+print(f"Result: {result}")
+
+
+
+
     
      
 
