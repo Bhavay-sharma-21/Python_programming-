@@ -1,3 +1,14 @@
+##Write a Python program to print "Hello, World!"
+print("hello world")
+##Write a program to swap the values of two variables.
+a=10
+b=5
+a,b=b,a
+print(a,b)
+##Calculate the area of a circle given its radius.
+radius= float(input("enter the radius"))
+area=float(3.14*radius**2)
+print(f"the area of circle is:", area)
 ##Write a program to demonstrate basic data type in python. 
 a=10
 b="bhavay"

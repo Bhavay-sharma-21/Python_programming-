@@ -1,5 +1,6 @@
-##Find the Factorial of a Number
-    def factorial(n)
+##Create a program to find the largest element in a list.
+num=[1,5,45,67,45]
+largest element =max(num)
         if n==0 or n==1:
             return 1
         else: 
@@ -14,7 +15,7 @@ for i in range(1,rows+1):
     spaces=" "*(rows-i)
     stars=" * "*i
     print(spaces+stars)
-## 8.	Write a program to print this series
+## Write a program to print this series
              1 1 2 3 5 8 13 
     a,b =1,1
     number_of_terms=7
