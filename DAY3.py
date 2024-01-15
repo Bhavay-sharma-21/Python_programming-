@@ -45,4 +45,10 @@ else:
     minimum=min(a,b,c)
     maximum=max(a,b,c)
     mid_value= (a+b+c)-(minimum+maximum)
-    print(minimum,mid_value,maximum
+    print(minimum,mid_value,maximum)
+## Write a python program to read a number ,if it is an even number , print the square of that number and if it is odd number print cube of that number.
+a=int(input("enter the number"))
+if (a%2==0) :
+    print(a**2)
+else:
+    print(a**3)
